@@ -11,6 +11,11 @@ menuconfig FPGA
 
 if FPGA
 
+config SK_AT91_XC6SLX
+	tristate "FPGA driver for SK at91 sam9m10g45ek-xc6slx board"
+	help
+	  FPGA driver for Xilinx xc6slx support on SK AT91 board.
+
 config FPGA_MGR_SOCFPGA
 	tristate "Altera SOCFPGA FPGA Manager"
 	depends on ARCH_SOCFPGA || COMPILE_TEST
