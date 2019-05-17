@@ -355,7 +355,7 @@
 
 						rootfs@100000 {
 							label = "rootfs";
-							reg = <0x100000 0xfea0000>;
+							reg = <0x100000 0xfb60000>;
 						};
 					};
 				};
