@@ -31,6 +31,7 @@ dtb-$(CONFIG_SOC_AT91SAM9) += \
 	usb_a9g20.dtb \
 	usb_a9g20_lpw.dtb \
 	at91sam9m10g45ek.dtb \
+	sk_at91_xc6slx.dtb \
 	pm9g45.dtb \
 	at91sam9n12ek.dtb \
 	at91sam9rlek.dtb \

@@ -106,7 +106,6 @@
 					reg = <0>;
 					bus-width = <4>;
 					cd-gpios = <&pioD 5 GPIO_ACTIVE_HIGH>;
-					wp-gpios = <&pioD 29 GPIO_ACTIVE_HIGH>;
 				};
 			};
 
@@ -355,7 +354,7 @@
 
 						rootfs@100000 {
 							label = "rootfs";
-							reg = <0x100000 0xfb60000>;
+							reg = <0x160000 0xfb60000>;
 						};
 					};
 				};
