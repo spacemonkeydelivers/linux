@@ -1,4 +1,5 @@
 #include <linux/fpga/sk_at91_xc6slx.h>
+#include <linux/fpga/sk_at91_xc6slx_ioctl.h>
 
 #define DEBUG
 
